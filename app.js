@@ -48,7 +48,7 @@ function makeShop(shop) {
 
        var row = document.getElementById(shop.loc);
 
-       row.innerHTML = "<td>"+shop.name+"</td><td>yo</td><td>Here it is</td><td>Hi!</td><td></td><td>Here it is</td>";
+       row.innerHTML = "<td>"+shop.name+"</td><td>yo</td><td>Here</td><td>I</td><td>Want</td><td>Numbers</td><td>Here</td><td>But</td><td>Not</td><td>Sure</td><td>How</td><td>Yet</td><td>Need</td><td>help</td>";
 }
 
 makeShop(PioneerSquare);
