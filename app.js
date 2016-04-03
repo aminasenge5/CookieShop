@@ -16,12 +16,21 @@ var Sellwood = new Shop("Drift", 20, 48, 3.3, "tr4");
 var PearlDistrict = new Shop("Oyster", 3, 24, 2.6, "tr5");
 
 
-function makeShop(shop) {
+function makeShop(param) {
 
-       var row = document.getElementById(shop.loc);
+       var row = document.getElementById(param.loc);
 
-       row.innerHTML = "<td>"+shop.name+"</td><td>yo</td><td>Here</td><td>I</td><td>Want</td><td>Numbers</td><td>Here</td><td>But</td><td>Not</td><td>Sure</td><td>How</td><td>Yet</td><td>Need</td><td>help</td>";
+       row.innerHTML = "<td>"+param.name+"</td><td>yo</td><td>"+randomNum(param.min, param.max)+"</td><td>I</td><td>Want</td><td>Numbers</td><td>Here</td><td>But</td><td>Not</td><td>Sure</td><td>How</td><td>Yet</td><td>Need</td><td>help</td>";
 }
+
+
+function randomNum(small, big) {
+
+	//return Math.random();
+	return Math.floor(Math.random() * (big - small + 1)) + small;
+
+}
+
 
 makeShop(PioneerSquare);
 makeShop(PortlandAirport);
