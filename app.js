@@ -24,7 +24,7 @@ function makeShop(param) {
 }
 
 
-function randomNum(small, big) {
+function randomNum(small, big) //function to create random numbers {
 
 	//return Math.random();
 	return Math.floor(Math.random() * (big - small + 1)) + small;
