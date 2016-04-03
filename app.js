@@ -20,7 +20,7 @@ function makeShop(param) {
 
        var row = document.getElementById(param.loc);
 
-       row.innerHTML = "<td>"+param.name+"</td><td>yo</td><td>"+randomNum(param.min, param.max)+"</td><td>I</td><td>Want</td><td>Numbers</td><td>Here</td><td>But</td><td>Not</td><td>Sure</td><td>How</td><td>Yet</td><td>Need</td><td>help</td>";
+       row.innerHTML = "<td>"+param.name+"</td><td>"+randomNum(param.min, param.max)+"</td><td>"+randomNum(param.min, param.max)+"</td><td>"+randomNum(param.min, param.max)+"</td><td>"+randomNum(param.min, param.max)+"</td><td>"+randomNum(param.min, param.max)+"</td><td>"+randomNum(param.min, param.max)+"</td><td>"+randomNum(param.min, param.max)+"</td><td>"+randomNum(param.min, param.max)+"</td><td>"+randomNum(param.min, param.max)+"</td><td>"+randomNum(param.min, param.max)+"</td><td>"+randomNum(param.min, param.max)+"</td><td>"+randomNum(param.min, param.max)+"</td><td>"+randomNum(param.min, param.max)+"</td>";
 }
 
 
